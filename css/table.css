@@ -1,0 +1,128 @@
+body{
+    background: #F9F6F6;
+    padding: 5%;
+    background-image: linear-gradient(rgb(214, 60, 60) blackrgb(209, 44, 44)09, 44, 44)
+}
+#grad {
+    background-image: linear-gradient(to right, rgb(248, 215, 215),rgb(239, 239, 239));
+  }
+header{
+    display: flex;
+    background-color: brown !important;
+}
+.corps{
+    box-shadow: 2px 3px 4px;
+}
+.nav{
+    background-color: brown !important;
+}
+.logo{
+    width: 100px;
+    background-color: brown !important;
+}
+.conn{
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-end;
+} 
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(252, 242, 55),rgb(255, 39, 39));
+    align-items: center;
+}
+.circle :hover{
+    background-image: linear-gradient(to right, rgb(255, 39, 39),rgb(252, 242, 55));
+}
+.form-control{
+    background-color: none;
+}
+th, tr {
+    border-color: none;
+    border-style: none;
+    border-width: 0;
+}
+.container{
+    max-width: 100% !important;
+    padding-left: var(--bs-gutter-x,0rem);
+}
+.row{
+    margin-left: calc(var(--bs-gutter-x) * 0);
+}
+.col-9{
+    margin: 0px auto;
+    display: block;
+    justify-content: center;
+    margin-top: 2% !important;
+    padding:0 4%;
+    height: 450px !important;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: none;
+  }
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+h3{
+    text-shadow: 1px 1px 2px;
+}
+main .col-2{
+    background-color: brown;
+}
+ul {
+    padding-inline-start: 0px !important;
+}
+ul li{
+    list-style-type: none !important;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.col-2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.col-2 li{
+    margin: 15% 0;
+    text-align: center;
+}
+
+p{
+    margin: auto;
+}
+
+form{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.justify-content-end{
+    border: none;
+}
+
+fieldset{
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    background-color: rgba(255, 255, 255, 0);
+    margin: 6% 0;
+}
